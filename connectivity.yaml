@@ -13,7 +13,7 @@
   tasks:
     - name: Install pan-python temporarily
       ansible.builtin.pip:
-        name: pan-python
+        name: pan-os-python
         
     - name: Run basic operational command (show system info)
       panos_op:
