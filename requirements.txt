@@ -1,1 +1,1 @@
-pan-os-python
+pan-python
