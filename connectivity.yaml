@@ -11,9 +11,9 @@
   #     username: "admin"
   #     password: "Suresh@1234"
   tasks:
-    - name: Install pan-python temporarily
-      ansible.builtin.pip:
-        name: pan-os-python
+    # - name: Install pan-python temporarily
+    #   ansible.builtin.pip:
+    #     name: pan-os-python
         
     - name: Run basic operational command (show system info)
       panos_op:
