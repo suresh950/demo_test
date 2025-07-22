@@ -4,4 +4,4 @@
   tasks:
     - name: Install dependencies
       pip:
-        requirements: /path/to/requirements.txt
+        requirements: requirements.txt
