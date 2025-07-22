@@ -1,0 +1,7 @@
+- name: Install Python dependencies at runtime
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Install dependencies
+      pip:
+        requirements: /path/to/requirements.txt
